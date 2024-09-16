@@ -53,7 +53,27 @@
         }
     }
     .center{
-        flex:1
+        flex:1;
+        overflow:scroll;
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+
+        .message{
+            max-width: 70%;
+            display:flex;
+            gap:20px;
+
+            &.own{
+                align-self: flex-end;
+
+                .text{
+                    p{
+                        background-color:#5183fe
+                    }
+                }
+            }
+        }
     }
     .bottom{
         display:flex;

@@ -24,7 +24,47 @@ const Chat = () => {
           <img src='./info.png' alt=''/>
         </div>
       </div>
-      <div className='center'></div>
+      <div className='center'>
+        <div className='message'>
+          <img src='./avatar.png' alt=''/>
+          <div className='text'>
+            <p>This is th emessage which i can seen in this</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message own'>
+          <div className='text'>
+            <p>This is th emessage which i can seen in this</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message'>
+          <img src='./avatar.png' alt=''/>
+          <div className='text'>
+            <p>This is th emessage which i can seen in this</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message own'>
+          <div className='text'>
+            <p>This is th emessage which i can seen in this</p>
+            <span>1 min ago</span>
+          </div>
+        </div>vvvvv
+        <div className='message'>
+          <img src='./avatar.png' alt=''/>
+          <div className='text'>
+            <p>This is th emessage which i can seen in this</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className='message own'>
+          <div className='text'>
+            <p>This is th emessage which i can seen in this</p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+      </div>
       <div className='bottom'>
         <div className='icons'>
           <img src='./img.png' alt=''/>
