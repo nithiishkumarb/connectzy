@@ -50,7 +50,7 @@ const Chat = () => {
             <p>This is th emessage which i can seen in this</p>
             <span>1 min ago</span>
           </div>
-        </div>vvvvv
+        </div>
         <div className='message'>
           <img src='./avatar.png' alt=''/>
           <div className='text'>
@@ -60,6 +60,7 @@ const Chat = () => {
         </div>
         <div className='message own'>
           <div className='text'>
+            <img src='https://images.pexels.com/photos/27908115/pexels-photo-27908115.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt='send'/>
             <p>This is th emessage which i can seen in this</p>
             <span>1 min ago</span>
           </div>
