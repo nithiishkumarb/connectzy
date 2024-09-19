@@ -18,22 +18,43 @@ const Details = () => {
         <div className='options'>
           <div className='title'>
             <span>Privacy & Help</span>
-            <img src='./arrowDown.png' alt=''/>
+            <img src='./arrowUp.png' alt=''/>
           </div>
         </div>
         <div className='options'>
           <div className='title'>
             <span>Shared Photos</span>
-            <img src='./arrowUp.png' alt=''/>
+            <img src='./arrowDown.png' alt=''/>
           </div>
         </div>
         <div className='photos'>
           <div className='photoitems'>
-            <div className='photoDetails'>
+            <div className='photodetails'>
                 <img src='https://images.pexels.com/photos/27908115/pexels-photo-27908115.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt='send'/>
                 <span>Photo2024.png</span>
             </div>
-            <img src='./download.png' alt=''/>
+            <img src='./download.png' alt='' className='icons'/>
+          </div>
+          <div className='photoitems'>
+            <div className='photodetails'>
+                <img src='https://images.pexels.com/photos/27908115/pexels-photo-27908115.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt='send'/>
+                <span>Photo2024.png</span>
+            </div>
+            <img src='./download.png' alt='' className='icons'/>
+          </div>
+          <div className='photoitems'>
+            <div className='photodetails'>
+                <img src='https://images.pexels.com/photos/27908115/pexels-photo-27908115.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt='send'/>
+                <span>Photo2024.png</span>
+            </div>
+            <img src='./download.png' alt='' className='icons'/>
+          </div>
+          <div className='photoitems'>
+            <div className='photodetails'>
+                <img src='https://images.pexels.com/photos/27908115/pexels-photo-27908115.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt='send'/>
+                <span>Photo2024.png</span>
+            </div>
+            <img src='./download.png' alt='' className='icons'/>
           </div>
         </div>    
         <div className='options'>

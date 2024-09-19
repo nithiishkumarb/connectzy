@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState,useRef, useEffect} from 'react'
 import EmojiPicker from 'emoji-picker-react'
 import "./chat.css"
 const Chat = () => {
@@ -8,6 +8,7 @@ const Chat = () => {
     setText(prev => prev+ e.emoji)
     setShowEmoji(!showEmoji);
   }
+  useEffect()
   return (
     <div className='chat'>
       <div className='top'>
@@ -66,6 +67,7 @@ const Chat = () => {
           </div>
         </div>
       </div>
+      <div ref={endref}></div>
       <div className='bottom'>
         <div className='icons'>
           <img src='./img.png' alt=''/>
