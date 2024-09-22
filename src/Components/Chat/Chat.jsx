@@ -4,11 +4,15 @@ import "./chat.css"
 const Chat = () => {
   const [showEmoji,setShowEmoji]=useState(false)
   const [text,setText]=useState("")
+
+  const endRef=useRef(null)
   const handleEmoji=e=>{
     setText(prev => prev+ e.emoji)
     setShowEmoji(!showEmoji);
   }
-  useEffect()
+  useEffect(()=>{
+    endRef.current?.scrollIntoView({behavior:"smooth"})
+  },[])
   return (
     <div className='chat'>
       <div className='top'>
@@ -66,8 +70,8 @@ const Chat = () => {
             <span>1 min ago</span>
           </div>
         </div>
+        <div ref={endRef}></div>
       </div>
-      <div ref={endref}></div>
       <div className='bottom'>
         <div className='icons'>
           <img src='./img.png' alt=''/>
