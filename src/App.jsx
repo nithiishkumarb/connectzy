@@ -5,7 +5,7 @@ import Login from "./Components/Login/Login.jsx"
 import Notifications from "./Components/notifications/Notifications.jsx"
 import "./index.css"
 const App = () => {
-  const user=false;
+  const user=true;
   return (
     <div className='container'>
       {
